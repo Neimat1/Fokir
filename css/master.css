@@ -51,9 +51,9 @@ h2{
     
     background-size:cover;
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .inner-home{
     width: 100%;
