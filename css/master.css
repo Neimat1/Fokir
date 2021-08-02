@@ -48,7 +48,7 @@ h2{
 .home {
     width: 100%;
     background-image: url(../images/home/slider-01.jpg);
-    background-size:contain;
+    background-size:auto;
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
