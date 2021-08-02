@@ -47,16 +47,18 @@ h2{
 *********************************************************************** */
 .home {
     width: 100%;
-    background-image: url(../images/home/slider-01.jpg);
-    background-size:auto;
+    background-image: url(../images/home/slider-01.jpg) ;
+    
+    background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .inner-home{
     width: 100%;
     background-color:rgba(0, 0, 0, 0.76) ;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
